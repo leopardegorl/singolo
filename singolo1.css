@@ -1,0 +1,322 @@
+html {
+  width: 1020px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+body {
+  width: 1020px;
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.wrapper {
+  height: 100%;
+  width: 1020px;
+  background: #f06c64;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-align: center;
+}
+.header {
+  height: 89px;
+  width: 1020px;
+  left: 0px;
+  right: 0px;
+  background: #2d303a;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  margin-right: 2px;
+}
+.navbar ul {
+  display: flex;
+  width: 370px;
+  justify-content: space-between;
+  margin: 46.8px 39px 0 0;
+}
+.navbar ul li a {
+  display: block;
+  font-size: 11.67px;
+  line-height: 6px;
+  color: #ffffff;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  display: block;
+  line-height: 6px;
+  color: #a7174e;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+}
+
+.navbar ul li:first-child a {
+  display: block;
+  line-height: 6px;
+  font-size: 11.66px;
+  color: #f06c64;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+  transform: scaleY(1.05);
+}
+.navbar ul li:first-child a:hover {
+  display: block;
+  line-height: 6px;
+  color: #a7174e;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+}
+.point {
+  width: 2px;
+  height: 2px;
+  background-color: #494e62;
+  border-radius: 0.5px;
+  margin-top: 2.5px;
+}
+.logo {
+  display: flex;
+  height: 89px;
+  font-size: 25.7px;
+  line-height: 6px;
+  color: #ffffff;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+  margin: 41px 0 0 36px;
+  transform: scaleX(0.94);
+}
+div p {
+  color: #f06c64;
+}
+#othercolor {
+  width: 1020px;
+  height: 6px;
+  background: #323746;
+  display: block;
+  left: 0;
+  right: 0;
+  padding: 0;
+}
+.images {
+  display: flex;
+  height: 595.17px;
+}
+.iphonevertical {
+  display: block;
+  height: 484px;
+  width: 240px;
+  margin: 53px 0 0 1px;
+  padding: 0 0 0 0;
+}
+.iphonehorisontal {
+  display: block;
+  height: 240px;
+  width: 483px;
+  margin: 173px 0 0 73px;
+  padding: 0 0 0 0;
+  transform: scaleY(0.99);
+}
+.Leftchev {
+  width: 111px;
+  margin: 0 0 0 0;
+  background: url("./assets/images/Leftchev.png") no-repeat;
+  background-position: 42px 280.5px;
+}
+.Leftchev:hover {
+  width: 111px;
+  margin: 0 0 0 0;
+  background: url("./assets/images/Leftchev.png") no-repeat;
+  background-color: #97312c;
+  background-position: 42px 280.5px;
+}
+.Rightchev {
+  width: 111px;
+  margin: 0 0 0 0;
+  background: url("./assets/images/Rightchev.png") center no-repeat;
+  background-position: 55px 280.5px;
+}
+.Rightchev:hover {
+  width: 111px;
+  margin: 0 0 0 0;
+  background: url("./assets/images/Rightchev.png") center no-repeat;
+  background-color: #97312c;
+  background-position: 55px 280.5px;
+}
+#othercolor_2 {
+  width: 1020px;
+  height: 6px;
+  background: #ea676b;
+  display: block;
+  left: 0;
+  right: 0;
+  padding: 0;
+}
+.services {
+  height: 500px;
+  width: 1020px;
+  background: #f2f2f2;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-align: center;
+}
+.OurServices {
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  padding: 68px 0 0 30px;
+  transform: scaleX(0.98);
+}
+.Text {
+  width: 990px;
+  height: 57px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: left;
+  padding: 25px 0 0 41px;
+}
+.table {
+  display: block;
+  width: 939px;
+  height: 207px;
+  padding: 51px 40px 57px 41px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.castomdesign,
+.love,
+.innov,
+.resp,
+.twentyfour,
+.feelstar {
+  width: 313px;
+  height: 104px;
+  margin: 0 0 0 0;
+  display: flex;
+}
+.pen {
+  width: 55px;
+  height: 55px;
+  background: url("./assets/images/pen.svg") 10.5px 10.5px no-repeat;
+  border-radius: 35px;
+  border: 2px solid #666d89;
+  margin: 0 0 0 0;
+}
+.pentext {
+  width: 220px;
+  height: 86px;
+  margin: 0 0 0 20px;
+}
+.castomdesigntext,
+.lamptext,
+.answer,
+.resplayout,
+.support,
+.feellikeastar {
+  font-size: 19px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  margin: 0 0 8px 0;
+}
+.curabitur,
+.quisque,
+.nulla,
+.sed,
+.vivamus,
+.hendrerit {
+  width: 240px;
+  height: 53px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: justify;
+  padding: 0 0 0 0;
+}
+
+.lamp {
+  width: 55px;
+  height: 55px;
+  background: url("./assets/images/bulb.svg") center no-repeat;
+  border-radius: 35px;
+  border: 2px solid #666d89;
+  margin: 0 0 0 6px;
+}
+.innovtext {
+  width: 220px;
+  height: 86px;
+  margin: 0 0 0 21px;
+}
+.heart {
+  width: 55px;
+  height: 55px;
+  background: url("./assets/images/heart.svg") center no-repeat;
+  border-radius: 35px;
+  border: 2px solid #666d89;
+  margin: 0 0 0 13px;
+}
+.lovetext {
+  width: 220px;
+  height: 86px;
+  margin: 0 0 0 21px;
+}
+.phone {
+  width: 55px;
+  height: 55px;
+  background: url("./assets/images/phone.svg") center no-repeat;
+  border-radius: 35px;
+  border: 2px solid #666d89;
+  margin: 19px 0 0 0;
+}
+.resptext,
+.supporttext,
+.startext {
+  width: 220px;
+  height: 86px;
+  margin: 19px 0 0 21px;
+}
+.bubble {
+  width: 55px;
+  height: 55px;
+  background: url("./assets/images/bubble.svg") 11px 13px no-repeat;
+  border-radius: 35px;
+  border: 2px solid #666d89;
+  margin: 19px 0 0 6px;
+}
+.star {
+  width: 55px;
+  height: 55px;
+  background: url("./assets/images/star.svg") center no-repeat;
+  border-radius: 35px;
+  border: 2px solid #666d89;
+  margin: 19px 0 0 13px;
+}
+.othercolor_3 {
+  width: 1020px;
+  height: 6px;
+  background: #ffffff;
+  display: block;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
