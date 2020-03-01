@@ -1,29 +1,27 @@
-html {
-  width: 1020px;
-  margin-left: 10%;
-  margin-right: 10%;
-}
 body {
-  width: 1020px;
-  text-align: center;
-  margin-left: 120px;
-  margin-right: 120px;
+  background: #f06c64;
+  min-width: 1200px;
 }
 .wrapper {
   height: 100%;
   width: 1020px;
   background: #f06c64;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin: 0px auto;
   text-align: center;
 }
 .header {
   height: 89px;
-  width: 1020px;
+
   left: 0px;
   right: 0px;
   background: #2d303a;
   padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 1020px;
+  margin: 0px auto;
   display: flex;
   justify-content: space-between;
 }
@@ -99,7 +97,6 @@ div p {
   color: #f06c64;
 }
 #othercolor {
-  width: 1020px;
   height: 6px;
   background: #323746;
   display: block;
@@ -153,7 +150,6 @@ div p {
   background-position: 55px 280.5px;
 }
 #othercolor_2 {
-  width: 1020px;
   height: 6px;
   background: #ea676b;
   display: block;
@@ -161,12 +157,14 @@ div p {
   right: 0;
   padding: 0;
 }
+footer {
+  background: #f2f2f2;
+}
 .services {
   height: 500px;
   width: 1020px;
   background: #f2f2f2;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin: 0px auto;
   text-align: center;
 }
 .OurServices {
@@ -311,7 +309,6 @@ div p {
   margin: 19px 0 0 13px;
 }
 .othercolor_3 {
-  width: 1020px;
   height: 6px;
   background: #ffffff;
   display: block;
