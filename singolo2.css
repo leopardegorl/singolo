@@ -1,0 +1,313 @@
+body {
+  /* sdfsdf */
+}
+.header {
+  background-color: #2d303a;
+}
+.obolochka {
+  width: 92.15686%;
+  max-width: 940px;
+  margin: 0px auto;
+  height: 196px;
+  overflow: auto;
+}
+.Logo {
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  text-decoration: none;
+  padding: 69px 0 0 0;
+  letter-spacing: -0.15px;
+}
+.underLogo {
+  font-size: 18px;
+  line-height: 17px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: left;
+  margin: 33px 0 0 0;
+}
+.navigation ul {
+  display: flex;
+  width: 289px;
+  margin: 17px 0 0 0;
+  justify-content: space-between;
+}
+.navigation ul a {
+  font-size: 12px;
+  line-height: 9px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  letter-spacing: -0.05px;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #666d89;
+  padding: 6px 6px 6px 6px;
+}
+.navigation ul a:hover {
+  font-size: 12px;
+  line-height: 9px;
+  color: #dedede;
+  font-family: "Lato";
+  font-weight: 400;
+  letter-spacing: -0.05px;
+  text-align: left;
+  border-radius: 5px;
+  border: 1px solid #c5c5c5;
+  padding: 6px 6px 6px 6px;
+}
+.images_container {
+  width: 92.15686%;
+  max-width: 940px;
+  height: 601px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  overflow: auto;
+}
+.boat {
+  background: url("./assets/images/RealBoat.png");
+  width: 23.4042%;
+  min-width: 220px;
+  height: 187px;
+}
+.smile {
+  background: url("./assets/images/RealSmile.png");
+  width: 23.4042%;
+  min-width: 220px;
+  height: 187px;
+}
+.grey {
+  background: url("./assets/images/RealGrey.png");
+  width: 23.4042%;
+  min-width: 220px;
+  height: 187px;
+}
+.robotlove {
+  background: url("./assets/images/RobotLove.png");
+  width: 23.4042%;
+  min-width: 220px;
+  height: 187px;
+}
+.animals {
+  background: url("./assets/images/RealAnimal.png");
+  width: 23.4042%;
+  min-width: 220px;
+  height: 187px;
+}
+.sdk {
+  background: url("./assets/images/Realsdk.png");
+  width: 23.4042%;
+  min-width: 220px;
+  height: 187px;
+}
+.bear {
+  background: url("./assets/images/RealBear.png");
+  width: 23.4042%;
+  min-width: 220px;
+  height: 187px;
+}
+.coco {
+  background: url("./assets/images/Realcoco.png");
+  width: 23.4042%;
+  min-width: 220px;
+  height: 187px;
+}
+.city {
+  background: url("./assets/images/Realcity.png");
+  width: 23.4042%;
+  min-width: 220px;
+  height: 187px;
+}
+.pen {
+  background: url("./assets/images/Realpen.png");
+  width: 23.4042%;
+  min-width: 220px;
+  height: 187px;
+}
+.white {
+  background: url("./assets/images/Realwhite.png");
+  width: 23.4042%;
+  min-width: 220px;
+  height: 187px;
+}
+.wood {
+  background: url("./assets/images/Realwood.png");
+  width: 23.4042%;
+  min-width: 220px;
+  height: 187px;
+}
+.portfolio {
+  height: 668px;
+  background-color: #2d303a;
+}
+.othercolor1 {
+  height: 6px;
+  background-color: #323746;
+}
+.aboutus {
+  height: 728px;
+  background-color: #f2f2f2;
+}
+.aboutcontent {
+  width: 92.15686%;
+  max-width: 940px;
+  margin: 0px auto;
+}
+.footerlogo {
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  padding: 68.5px 0 0 0;
+  letter-spacing: -0.23px;
+}
+.Fusce {
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 300;
+  text-align: justify;
+  margin: 26px 0 0 0;
+}
+.photos {
+  margin-top: 45.5px;
+  max-width: 940px;
+  display: flex;
+  justify-content: space-between;
+}
+.Jensen,
+.Miles,
+.Visary {
+  width: 31.702127%;
+  min-width: 298px;
+}
+.imageJensen {
+  background: url("./assets/images/RealJensen.png");
+  width: 32.05128%;
+  min-width: 300px;
+  height: 300px;
+}
+.imageMiles {
+  background: url("./assets/images/RealMiles.png");
+  width: 32.05128%;
+  min-width: 300px;
+  height: 300px;
+}
+.imageVisary {
+  background: url("./assets/images/RealVisary.png");
+  width: 32.05128%;
+  min-width: 300px;
+  height: 300px;
+}
+.name {
+  font-size: 19px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  padding-top: 17px;
+  letter-spacing: -0.65px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.undername {
+  font-size: 12px;
+  line-height: 21px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: justify;
+  margin-top: 10px;
+  letter-spacing: -0.1px;
+}
+.socialmedia {
+  display: flex;
+  margin-top: 24px;
+}
+.facebook {
+  background: url("./assets/images/facebook.png") no-repeat center;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #666d89;
+}
+.google {
+  background: url("./assets/images/google+.png") no-repeat center;
+  width: 30px;
+  height: 30px;
+  border-radius: 16px;
+  border: 1px solid #666d89;
+  margin-left: 2.649%;
+}
+.twitter {
+  background: url("./assets/images/twitter.png") no-repeat center;
+  width: 30px;
+  height: 30px;
+  border-radius: 16px;
+  border: 1px solid #666d89;
+  margin-left: 2.649%;
+}
+.in {
+  background: url("./assets/images/linkedin.png") no-repeat center;
+  width: 30px;
+  height: 30px;
+  border-radius: 16px;
+  border: 1px solid #666d89;
+  margin-left: 2.649%;
+}
+.othercolor2 {
+  height: 6px;
+  background-color: #ffffff;
+}
+.facebook:hover {
+  background: url("./assets/images/facebook.png") no-repeat center;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #666d89;
+  background-color: #323746;
+}
+.google:hover {
+  background: url("./assets/images/google+.png") no-repeat center;
+  width: 30px;
+  height: 30px;
+  border-radius: 16px;
+  border: 1px solid #666d89;
+  margin-left: 2.649%;
+  background-color: #323746;
+}
+.twitter:hover {
+  background: url("./assets/images/twitter.png") no-repeat center;
+  width: 30px;
+  height: 30px;
+  border-radius: 16px;
+  border: 1px solid #666d89;
+  margin-left: 2.649%;
+  background-color: #323746;
+}
+.in:hover {
+  background: url("./assets/images/linkedin.png") no-repeat center;
+  width: 30px;
+  height: 30px;
+  border-radius: 16px;
+  border: 1px solid #666d89;
+  margin-left: 2.649%;
+  background-color: #323746;
+}
+.othercolor2 {
+  height: 6px;
+  background-color: #ffffff;
+}
