@@ -243,16 +243,29 @@
         <div class="forms_container">
           <div class="forms">
             <form action="https://echo.htmlacademy.ru" method="post">
-              <input type="text" name="name" id="name" value="Name(Required)" />
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name(Required)"
+                required
+              />
               <input
                 type="text"
                 name="email"
                 id="email"
-                value="E-mail(Required)"
+                placeholder="E-mail(Required)"
+                required
               />
-              <input type="text" name="subject" id="subject" value="Subject" />
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Subject"
+                required
+              />
               <textarea name="project_describe" id="pd" cols="30" rows="10">
-  Describe your project in detail...</textarea
+Describe your project in detail...</textarea
               >
               <input type="submit" name="submit" id="submit" value="Submit" />
             </form>
@@ -274,11 +287,15 @@
             </div>
             <div class="phone_container">
               <div class="singolo3_phone"></div>
-              <p class="phone_right">03528 331 86 35</p>
+              <a class="phone_right" href="tel:03528 331 86 35"
+                >03528 331 86 35</a
+              >
             </div>
             <div class="message_container">
               <div class="message"></div>
-              <p class="info">info@singolo.com</p>
+              <a class="info" href="mailto:info@singolo.com"
+                >info@singolo.com</a
+              >
             </div>
           </div>
         </div>

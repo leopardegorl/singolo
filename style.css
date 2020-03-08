@@ -679,10 +679,34 @@ div p {
   color: #f48c8f;
   padding-left: 15px;
 }
+#name:invalid {
+  background-color: rgba(236, 18, 18, 0.658);
+  width: 604px;
+  height: 36px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 12px;
+  line-height: 22px;
+  color: #f48c8f;
+  padding-left: 15px;
+}
 #email,
 #subject {
   margin-top: 16px;
   background-color: #d6564f;
+  width: 604px;
+  height: 36px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 12px;
+  line-height: 22px;
+  color: #f48c8f;
+  padding-left: 15px;
+}
+#email:invalid,
+#subject:invalid {
+  margin-top: 16px;
+  background-color: rgba(236, 18, 18, 0.658);
   width: 604px;
   height: 36px;
   border-radius: 5px;
@@ -774,6 +798,7 @@ textarea {
   text-align: left;
   margin-left: 11px;
   padding-top: 10px;
+  text-decoration: none;
 }
 
 .message {
@@ -791,6 +816,7 @@ textarea {
   text-align: left;
   margin-left: 10px;
   padding-top: 10px;
+  text-decoration: none;
 }
 .other_color {
   height: 6px;
