@@ -2,22 +2,44 @@ body {
   background: #f06c64;
   min-width: 1200px;
 }
+.bluebody {
+  background-color: #648bf0;
+  min-width: 1200px;
+}
 .wrapper {
   height: 100%;
   width: 1020px;
-  background: #f06c64;
+  /*background: #f06c64;*/
+  margin: 0px auto;
+  text-align: center;
+}
+.blue {
+  background-color: #648bf0;
+  height: 100%;
+  width: 1020px;
   margin: 0px auto;
   text-align: center;
 }
 .header {
   height: 89px;
-
   left: 0px;
   right: 0px;
   background: #2d303a;
   padding: 0px;
   display: flex;
   justify-content: space-between;
+}
+.fixed_header {
+  position: fixed;
+  top: 0;
+  height: 89px;
+  left: 0px;
+  right: 0px;
+  background: #2d303a;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
 }
 .container {
   width: 1020px;
@@ -34,7 +56,7 @@ body {
   justify-content: space-between;
   margin: 46.8px 39px 0 0;
 }
-.navbar ul li a {
+.services_href {
   display: block;
   font-size: 11.67px;
   line-height: 6px;
@@ -44,7 +66,38 @@ body {
   text-align: left;
   text-decoration: none;
 }
-.navbar ul li a:hover {
+.portfolio_href {
+  display: block;
+  font-size: 11.67px;
+  line-height: 6px;
+  color: #ffffff;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+}
+.about_href {
+  display: block;
+  font-size: 11.67px;
+  line-height: 6px;
+  color: #ffffff;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+}
+.contact_href {
+  display: block;
+  font-size: 11.67px;
+  line-height: 6px;
+  color: #ffffff;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+}
+
+#services:hover {
   display: block;
   line-height: 6px;
   color: #a7174e;
@@ -53,7 +106,75 @@ body {
   text-align: left;
   text-decoration: none;
 }
+#portfolio:hover {
+  display: block;
+  line-height: 6px;
+  color: #a7174e;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+}
+#about:hover {
+  display: block;
+  line-height: 6px;
+  color: #a7174e;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+}
+#contact:hover {
+  display: block;
+  line-height: 6px;
+  color: #a7174e;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+}
+.inactive_services {
+  display: block;
+  line-height: 6px;
+  color: aqua;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+  pointer-events: none;
+}
+.inactive_portfolio {
+  display: block;
+  line-height: 6px;
+  color: aqua;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+  pointer-events: none;
+}
 
+.inactive_about {
+  display: block;
+  line-height: 6px;
+  color: aqua;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.inactive_contact {
+  display: block;
+  line-height: 6px;
+  color: aqua;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+  pointer-events: none;
+}
 .navbar ul li:first-child a {
   display: block;
   line-height: 6px;
@@ -108,12 +229,47 @@ div p {
   display: flex;
   height: 595.17px;
 }
+.contentOFcontent {
+  display: flex;
+  width: 797px;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: 797px;
+  position: relative;
+  left: 0px;
+}
+.newcontent {
+  width: 797px;
+  position: relative;
+  justify-content: space-between;
+  background-color: #648bf0;
+  left: 0px;
+}
+.blueImages {
+  display: flex;
+  height: 595.17px;
+  justify-content: space-between;
+}
 .iphonevertical {
   display: block;
   height: 484px;
   width: 240px;
   margin: 53px 0 0 1px;
   padding: 0 0 0 0;
+  background: url("./assets/images/IphoneVertical.png") no-repeat;
+}
+
+.newSlide {
+  display: block;
+  height: 483px;
+  width: 797px;
+  margin: 53px auto 0 auto;
+  margin-left: 159.5px;
+  background: url("./assets/images/newslide.png") no-repeat;
 }
 .iphonehorisontal {
   display: block;
@@ -122,6 +278,7 @@ div p {
   margin: 173px 0 0 73px;
   padding: 0 0 0 0;
   transform: scaleY(0.99);
+  background: url("./assets/images/IphoneHorisontal.png") no-repeat;
 }
 .Leftchev {
   width: 111px;

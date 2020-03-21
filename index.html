@@ -19,7 +19,7 @@
     <header class="header">
       <div class="container">
         <div class="logo">
-          <h1>SINGOLO</h1>
+          <h1>SINGOLO<a href="#"></a></h1>
           <p>*</p>
         </div>
         <nav class="navbar">
@@ -28,35 +28,43 @@
               <a class="HOME" href="#">HOME</a>
             </li>
             <li class="point"></li>
-            <li>
-              <a href="#">SERVICES</a>
+            <li disabled="true">
+              <a href="#ser" id="services" class="services_href">SERVICES</a>
             </li>
             <li class="point"></li>
             <li>
-              <a href="#">PORTFOLIO</a>
+              <a href="#port" id="portfolio" class="portfolio_href"
+                >PORTFOLIO</a
+              >
             </li>
             <li class="point"></li>
             <li>
-              <a href="#">ABOUT</a>
+              <a href="#ab" id="about" class="about_href">ABOUT</a>
             </li>
             <li class="point"></li>
             <li>
-              <a href="#">CONTACT</a>
+              <a href="#cont" id="contact" class="contact_href">CONTACT</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
     <p id="othercolor"></p>
-    <div class="wrapper">
+    <div class="wrapper" id="wrapper">
       <div class="images">
-        <div class="Leftchev"></div>
-        <img src="assets/images/IphoneVertical.png" class="iphonevertical" />
-        <img
-          src="assets/images/IphoneHorisontal.png"
-          class="iphonehorisontal"
-        />
-        <div class="Rightchev"></div>
+        <div class="Leftchev" id="Leftchev"></div>
+        <div class="contentOFcontent">
+          <div class="item" id="1">
+            <div class="iphonevertical"></div>
+            <div class="iphonehorisontal"></div>
+          </div>
+          <div class="item" id="2">
+            <div class="newcontent">
+              <div class="newSlide"></div>
+            </div>
+          </div>
+        </div>
+        <div class="Rightchev" id="Rightchev"></div>
       </div>
     </div>
     <section class="singolo1_footer">
@@ -171,6 +179,7 @@
       </section>
       <section class="othercolor1"></section>
       <section class="singolo2footer">
+        <a name="about"></a>
         <div class="aboutus">
           <div class="aboutcontent">
             <p class="footerlogo">About Us</p>
@@ -230,6 +239,7 @@
       </section>
     </section>
     <section class="singolo3_section">
+      <a name="contact"></a>
       <div class="getaquote">
         <div class="quoteText">
           <p>Get a Quote</p>
@@ -313,5 +323,6 @@ Describe your project in detail...</textarea
         </div>
       </div>
     </footer>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
