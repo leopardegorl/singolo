@@ -49,7 +49,7 @@ contact_click.onclick = function() {
   about_click.classList.remove("inactive_about");
   return;
 };
-/*let slider = [];
+let slider = [];
 let blue_theme = document.getElementById("Leftchev");
 blue_theme.onclick = function() {
   document.getElementById("wrapper").classList.add("blue");
@@ -84,8 +84,8 @@ persik_theme.onclick = function() {
     });
   }, 0.001);
   return;
-};*/
-let slides = document.querySelectorAll(".item");
+};
+/*let slides = document.querySelectorAll(".item");
 let slider = [];
 console.log(slides);
 for (let i = 0; i < slides.length; i++) {
@@ -102,4 +102,4 @@ function draw() {
   div.style.left = offset * 797 + "px";
   document.querySelector(".contentOFcontent").appendChild("div");
 }
-draw();
+draw();*/
