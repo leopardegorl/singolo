@@ -1,14 +1,13 @@
 body {
   background: #f06c64;
-  min-width: 1200px;
 }
 .bluebody {
   background-color: #648bf0;
-  min-width: 1200px;
+  max-width: 1200px;
 }
 .wrapper {
   height: 100%;
-  width: 1020px;
+  max-width: 1020px;
   /*background: #f06c64;*/
   margin: 0px auto;
   text-align: center;
@@ -20,14 +19,13 @@ body {
   margin: 0px auto;
   text-align: center;
 }
-.header {
+header {
   height: 89px;
   left: 0px;
   right: 0px;
   background: #2d303a;
   padding: 0px;
   display: flex;
-  justify-content: space-between;
 }
 .fixed_header {
   position: fixed;
@@ -37,24 +35,27 @@ body {
   right: 0px;
   background: #2d303a;
   padding: 0px;
-  display: flex;
-  justify-content: space-between;
   z-index: 999;
 }
+.bigconteainter {
+  margin: 0px auto;
+  max-width: 1020px;
+}
 .container {
-  width: 1020px;
+  max-width: 1020px;
+  height: 89px;
   margin: 0px auto;
   display: flex;
   justify-content: space-between;
 }
 .navbar {
-  margin-right: 2px;
+  padding-right: 3.92%;
 }
 .navbar ul {
   display: flex;
   width: 370px;
   justify-content: space-between;
-  margin: 46.8px 39px 0 0;
+  padding: 46.8px 0 0 0;
 }
 .services_href {
   display: block;
@@ -204,14 +205,13 @@ body {
 }
 .logo {
   display: flex;
-  height: 89px;
   font-size: 25.7px;
   line-height: 6px;
   color: #ffffff;
   font-family: "Lato";
   font-weight: 700;
   text-align: left;
-  margin: 41px 0 0 36px;
+  padding: 41px 0 0 4%;
   transform: scaleX(0.94);
 }
 div p {
@@ -231,7 +231,7 @@ div p {
 }
 .contentOFcontent {
   display: flex;
-  width: 797px;
+  max-width: 797px;
   overflow: hidden;
   flex-wrap: nowrap;
 }
@@ -316,11 +316,10 @@ div p {
 }
 .singolo1_footer {
   background-color: #f2f2f2;
-  height: 500px;
 }
 .services {
-  height: 500px;
-  width: 1020px;
+  min-height: 500px;
+  max-width: 1020px;
   background: #f2f2f2;
   margin: 0px auto;
   text-align: center;
@@ -336,32 +335,48 @@ div p {
   transform: scaleX(0.98);
 }
 .Text {
-  width: 990px;
-  height: 57px;
+  max-width: 990px;
+  min-height: 57px;
   font-size: 18px;
   line-height: 30px;
   color: #767e9e;
   font-family: "Lato";
   font-weight: 300;
   text-align: justify;
-  padding: 25px 0 0 41px;
+  padding: 2.45% 4% 0 4%;
 }
 .table {
-  display: block;
-  width: 939px;
-  height: 207px;
-  padding: 51px 40px 57px 41px;
+  max-width: 939px;
+  /*height: 207px;*/
+  padding: 5% 3.92% 6.27% 4.02%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
 }
 .castomdesign,
-.love,
-.innov,
-.resp,
 .twentyfour,
 .feelstar {
   width: 313px;
   height: 104px;
+  margin: 0 0 0 0;
+  display: flex;
+}
+.innov {
+  width: 307px;
+  height: 104px;
+  margin: 0 0 0 0;
+  display: flex;
+}
+.love {
+  width: 300px;
+  height: 104px;
+  margin: 0 0 0 0;
+  display: flex;
+}
+.resp {
+  width: 313px;
+  height: 95px;
   margin: 0 0 0 0;
   display: flex;
 }
@@ -415,7 +430,7 @@ div p {
   background: url("./assets/images/bulb.svg") center no-repeat;
   border-radius: 35px;
   border: 2px solid #666d89;
-  margin: 0 0 0 6px;
+  margin: 0 0 0 0;
 }
 .innovtext {
   width: 220px;
@@ -428,7 +443,6 @@ div p {
   background: url("./assets/images/heart.svg") center no-repeat;
   border-radius: 35px;
   border: 2px solid #666d89;
-  margin: 0 0 0 13px;
 }
 .lovetext {
   width: 220px;
@@ -441,7 +455,6 @@ div p {
   background: url("./assets/images/phone.svg") center no-repeat;
   border-radius: 35px;
   border: 2px solid #666d89;
-  margin: 19px 0 0 0;
 }
 .resptext,
 .supporttext,
@@ -538,13 +551,15 @@ div p {
 .images_container {
   width: 92.15686%;
   max-width: 940px;
-  height: 601px;
+  height: 77.94%;
   margin: 0 auto 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
   overflow: auto;
+  padding-bottom: 6.4%;
+  align-items: center;
 }
 .boat {
   background: url("./assets/images/RealBoat.png");
@@ -619,7 +634,7 @@ div p {
   height: 187px;
 }
 .portfolio {
-  height: 668px;
+  /*height: 668px;*/
   background-color: #2d303a;
 }
 .othercolor1 {
@@ -1078,4 +1093,54 @@ footer {
   font-family: "Lato";
   padding-top: 32px;
   margin-left: 41px;
+}
+
+@media (max-width: 1020px) {
+  .wrapper {
+    max-width: 768px;
+  }
+  .iphonevertical {
+    display: block;
+    height: 363.67px;
+    width: 180.71px;
+    margin: 40.97px 0 0 1px;
+    padding: 0 0 0 0;
+    background: url("./assets/images/IphoneVertical_768.png") no-repeat;
+  }
+  .iphonehorisontal {
+    display: block;
+    height: 162px;
+    width: 344px;
+    margin: 133.65px 0 0 0;
+    padding: 0 0 0 0;
+    transform: scaleY(0.99);
+    background: url("./assets/images/IphoneHorisontal_768.png") no-repeat;
+  }
+  .contentOFcontent {
+    display: flex;
+    max-width: 599.34px;
+    overflow: hidden;
+    flex-wrap: nowrap;
+  }
+  .item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 599.34px;
+    position: relative;
+    left: 0px;
+    min-width: 599.34px;
+  }
+  .images {
+    display: flex;
+    height: 447.25px;
+    max-width: 768px;
+  }
+  .Leftchev {
+    width: 84.33px;
+    background-position: 29.42px 211.88px;
+  }
+  .Rightchev {
+    width: 84.33px;
+    background-position: 41.46px 211.88px;
+  }
 }
